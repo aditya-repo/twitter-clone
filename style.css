@@ -1,0 +1,102 @@
+.hero{
+    color: rgb(29, 155, 240);
+    font-size: 36px;
+}
+.navigation-list{
+    list-style: none;
+    padding: 8px;
+}
+.navigation-list li,button{
+    padding: 10px 4px;
+    font-size: 20px;
+}
+.navigation-list li span svg{
+    height: 24px;
+    width: 24px;
+    margin: 4px;
+}
+.navigation-list button{
+    width: 100%;
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.right{
+    padding: 6px 2px;
+}
+input[type=text]{
+    background-color: rgb(228, 234, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000;
+    background-image: url(assets/img/search.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 12px;
+    background-size: 15px;
+    outline: rgb(29, 155, 240);
+}
+input[type=text] :active{
+    border: 1px solid rgb(29, 155, 240);
+}
+.right .trend-section .right-component{
+    background-color: rgb(242, 243, 245);
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 16px;
+}
+.right-component h5{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.right-component p{
+    font-size: 15px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+.right-component button{
+    padding: 6px 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+.right-component .trend-brief,.tweet-count{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #727272;
+}
+.right-component .trend-name{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.friend{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.friend-details{
+    display: flex;
+    justify-content: space-between;
+}
+.right-component .friend button{
+    padding: 4px 12px;
+}
+@media screen and (min-width: 1080px){
+    div.row{
+        display: flex;
+    }
+}

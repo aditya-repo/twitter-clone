@@ -1,0 +1,4 @@
+media width :   1280 and +
+                1092 and +
+                1002+
+                498
