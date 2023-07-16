@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .hero{
     color: rgb(29, 155, 240);
     font-size: 36px;
@@ -29,7 +34,7 @@
 .right{
     padding: 6px 2px;
 }
-input[type=text]{
+input[type=text].search{
     background-color: rgb(228, 234, 238);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -95,8 +100,68 @@ input[type=text] :active{
 .right-component .friend button{
     padding: 4px 12px;
 }
-@media screen and (min-width: 1080px){
-    div.row{
-        display: flex;
-    }
+.header{
+    border: 1px solid rgba(128, 128, 128, 0.12);
+    border-top: none;
+    width: 100%;
+    padding: 0 12px;
+}
+.header > h5{
+    margin-bottom: 12px;
+}
+.header div p{
+    font-size: 14px;
+}
+.post{
+    padding: 12px 12px;
+    border: 1px solid rgba(128, 128, 128, 0.12);
+    border-top: none;
+}
+.post-data i{
+    padding-top: 12px;
+}
+.input-post{
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 20px;
+}
+.post-data{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.post .d-flex button{
+    height: 36px;
+    background-color:  rgb(29, 155, 240);
+    border: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+ul.tweet{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul.tweet li{
+    padding: 6px 8px;
+}
+ul.tweet li i{
+    color: rgb(29, 155, 240);
+}
+.feed-tweet-count{
+    text-align: center;
+    padding: 12px;
+    color: rgb(29, 155, 240);
+    border: 0.5px solid rgba(128, 128, 128, 0.12);
+    border-top: none;
+}
+.news-heading{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.news-caption{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
