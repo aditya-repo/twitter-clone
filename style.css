@@ -90,12 +90,17 @@ input[type=text] :active{
 }
 .friend{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-bottom: 16px;
 }
 .friend-details{
     display: flex;
+    width: 100%;
     justify-content: space-between;
+}
+.friend-details > button{
+    height: 34px;
+    width: 80px;
 }
 .right-component .friend button{
     padding: 4px 12px;
@@ -156,12 +161,66 @@ ul.tweet li i{
     border: 0.5px solid rgba(128, 128, 128, 0.12);
     border-top: none;
 }
+.feed-news{
+    padding: 8px;
+    border: 0.5px solid rgba(128, 128, 128, 0.12);
+    border-top: none;
+}
 .news-heading{
     display: flex;
-    /* justify-content: space-between; */
+}
+.news-heading i{
+    padding: 8px;
 }
 .news-caption{
+    padding: 8px;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: baseline;
+}
+.news-caption p> i{
+    color: rgb(29, 155, 240);
+}
+.news-caption > a{
+    color: #000;
+    padding: 5px;
+}
+.news-caption a > strong{
+    padding: 4px;
+
+}
+.news-caption > a:hover{
+    color: rgb(0, 134, 223);
+    text-decoration: none;
+    background-color: rgba(29, 156, 240, 0.11);
+
+    border-radius: 30px;
+}
+.text-grey{
+    color: #5f5f5f;
+}
+.caption-text p:first-child{
+    margin-bottom: 0px;
+}
+.caption-text p:nth-child(2){
+    text-align: justify;
+}
+figure{
+    border-radius: 25px;
+}
+figure img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+figcaption{
+    border: 1px solid grey;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+.yzz{
+    margin-bottom: 0;
+}
+.text-twitter{
+    color: rgb(29, 155, 240);
 }
